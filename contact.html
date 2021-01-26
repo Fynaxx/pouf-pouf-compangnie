@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pouf Pouf</title>
+
+    <link  rel="stylesheet" href="../scss/style.css">
+    <link  rel="stylesheet" href="../scss/index.css">
+  
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="../bootstrap-4.5.3/dist/js/bootstrap.js"></script>
+    <script src="../bootstrap-4.5.3/dist/js/bootstrap.min.js"></script>
+
+</head>
+
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+        <header> 
+            <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">  
+                
+                    <a class="navbar-brand" href="#">MySite</a>
+
+                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+        
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section1">Portefolio</a>
+                        </li>
+        
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section2">About</a>
+                        </li>
+            
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section3">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+        </header>   
+<br/>
+<br/>
+<br/>
+        <main>
+            <h2 id="contact" class="text-center" aria-current="page">CONTACT</h2>
+            <br/>
+                <form class="container-fluid">   
+                    <div class="row g-2 d-flex justify-content-center">
+                        <div class="col-6">
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="inputGroup-sizing-default">Nom</span>
+                                <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="inputGroup-sizing-default">Prénom</span>
+                                <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row g-2 d-flex justify-content-center">
+                        <div class="col-6">
+                            <div class="input-group flex-nowrap mb-3">
+                                <span class="input-group-text" id="addon-wrapping">@</span>
+                                <input type="text" class="form-control" placeholder="Email" aria-label="Username" aria-describedby="addon-wrapping" required>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="inputGroup-sizing-default">Ton 06</span>
+                                <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row g-2 d-flex justify-content-center">
+                        <div class="col-4">
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="inputGroup-sizing-default">Adresse</span>
+                                <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="inputGroup-sizing-default">Code Postal</span>
+                                <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="inputGroup-sizing-default">Ville</span>
+                                <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row g-2 d-flex justify-content-center">
+                        <div class="col">
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="inputGroup-sizing-default">Objet</span>
+                                <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row g-2 d-flex justify-content-center">
+                        <div class="col">
+                            <div class="input-group mb-3">
+                                <textarea class="form-control" type="text" placeholder="Quel est votre problème" aria-label="default input example" rows="6"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row g-2 d-flex justify-content-center">
+                        <div class="col">
+                            <div class="input-group mb-3">
+                                <input class="form-control" type="file" id="formFile">
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="col-12 d-flex justify-content-center">
+                        <button type="submit" class="btn btn-dark">Envoyez</button>
+                    </div>
+                </form>
+     
+        </main>
+<br/>
+<br/>
+<br/>
+<br/>
+        <footer class="footer text-center text-white bg-dark">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="col-lg-4 mb-5 mb-lg-5 mt-3">
+                        <h4 class="mb-4">About</h4>
+                        <p class="lead mb-0">
+                        Certified Web Developer :)
+                        </p>
+                    </div>
+                    
+                    <div class="col-lg-4 mb-5 mb-lg-3 mt-3">
+                        <h4 class="mb-4">Reseaux Sociaux</h4>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-instagram"></i></i></a>
+                    </div>
+                
+                    <div class="col-lg-4 mb-5 mb-lg-3 mt-3">
+                        <h4 class="mb-4">Contact</h4>
+                        <p class="lead mb-0">
+                        Montpellier
+                        <br>
+                        07.82.XX.XX.XX
+                        <br>
+                        email@gmail.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <div class="copyright py-4 text-center text-black bg-warning">
+        <div class="container"><small>Copyright © Your Website 2020</small></div>
+        </div>
+
+</body>
+</html>
